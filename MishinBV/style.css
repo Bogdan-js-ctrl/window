@@ -1,0 +1,165 @@
+body{
+  color: #ffffff;
+  display: block;
+  margin: 8px;
+  background-color: #6c0086;
+  font-family: fantasy;
+}
+.ff {
+  position: fixed;
+  width: 1800px;
+  margin-bottom: 100px;
+}
+.padd {
+  height: calc(100vh - 100px);
+    padding: 50px 0 50px 50px;
+    
+}
+.main{
+  height: 590px;
+    font-size: 0;
+    overflow-x: auto;
+}
+.container{
+  width: 2950px;
+    padding-right: 50px;
+
+}
+.column{
+
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 744px;
+  height: 100%;
+}
+.element{
+  width: 365px;
+  height: 175px;
+  border: 1px solid #000;
+}
+
+
+
+
+.group {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+header {
+  margin: 0 50px 50px 0;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.text_h1 {
+  font-size: 2rem;
+}
+.text_h2 {
+  font-size: 2rem;
+  text-align: right;
+  margin-right: 100px;
+}
+.text {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  font-weight: 400;
+  margin: 0;
+}
+.img_user {
+  width: 40px;
+  height: 40px;
+
+  
+}
+
+
+
+
+.great_gorisontal {
+  width: 742px;
+}
+.mini_vertical {
+  height: 362px;
+}
+
+.mini {
+  width: 176px;
+  background-position-x: -10px;
+  background-position-y: -10px;
+  background-repeat: no-repeat;
+  background-size: 187px;
+}
+.big_vertical{
+  height: 362px;
+}
+.big_gorisontal {
+  width: 366px;
+}
+.element_massage {
+  background-image: url(image/massage.png);
+  background-position-x: -10px;
+  background-position-y: -5px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+}
+.element_graff {
+  background-image: url(image/graffic.png);
+  background-position-x: 0px;
+  background-position-y: -10px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+}
+.element_date {
+  background-image: url(image/callend.png);
+  background-position-x:-10px;
+  background-position-y: -5px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+}
+.element_people {
+  background-image: url(image/people.png);
+ 
+}
+.element_skype {
+  background-image: url(image/skype.png);
+  
+}
+.element_table {
+  background-image: url(image/table.png);
+  background-position-x: -40px;
+  background-position-y: -10px;
+  background-repeat: no-repeat;
+  background-size: 800px;
+}
+.element_blue {
+  background-color: rgb(0, 64, 255);
+}
+.element_white {
+  background-color: #ffffff;
+}
+.element_weather {
+  background-image: url(image/weather.png);
+  height: 363px;
+  margin-top: -188px;
+  background-position-x: -12px;
+  background-position-y: -12px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+}
+.column_2 {
+  margin-right: 80px;
+}
+.element_skype_1, .element_people_1 {
+  margin-top: -188px;
+}
+.element_nature {
+  background-image: url(image/i.webp);
+  background-position-x: 0px;
+  background-position-y: -270px;
+  background-repeat: no-repeat;
+  background-size: 800px;
+}
